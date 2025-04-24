@@ -256,6 +256,7 @@ jobs:
       uses: Kidev/install-qt-action@v4.6.0
       with:
         cache: true
+        cache-key-prefix: my-fork-install-qt
         target: desktop
         use-official: true
         modules: ${{env.QT_MODULES}}
